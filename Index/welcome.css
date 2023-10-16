@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px green;
+}
+.title{
+    /*  position: absolute;
+    top: 50%; 
+    justify-content: center;
+    align-items: center;
+    color: aqua; */
+}
+.Button{
+    /* display:flex;
+    flex: content;
+    align-items: flex-end;
+    justify-content: center; */
+
+}

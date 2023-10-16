@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Main Page</h1>
+    </div>
+    
+    <div class="categories">
+        <p>categories</p>
+        <section class="slider">
+            <p>image0</p>
+        </section>
+        <section class="slider">
+            <p>image1</p>
+        </section>
+        <section class="slider">
+            <p>image2</p>
+        </section>
+        <section class="slider">
+            <p>image3</p>
+        </section>
+        <section id="movement">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </section>
+    </div>
+
+    <div class="Famous">
+        <p>Most famous</p>
+        <section class="panel">
+            <p>image0</p>
+        </section>
+        <section class="panel">
+            <p>image1</p>
+        </section>
+        <section class="panel">
+            <p>image2</p>
+        </section>
+        <section class="panel">
+            <p>image3</p>
+        </section>
+        <a class="prev" onclick="plusPanels(-1)">❮</a>
+        <a class="next" onclick="plusPanels(1)">❯</a>
+    </div>
+    <div class="exhibits">
+        <p>The different exhibits</p>
+        <section class="Exhibit02">
+            <div class ='box'></div>
+        </section>
+        <section class="Exhibit04">
+            <div class ='box'></div>
+        </section>
+        <section class="Exhibit02">
+            <div class ='box'></div>
+        </section>
+        <section class="Exhibit04">
+            <div class ='box'></div>
+        </section>
+
+
+    </div>
+</body>
+<footer>
+    <p>ALL Museum info comes from the art museum api.</p>
+</footer>
+<script src="../JS/mainpage.js"></script>
+</html>
